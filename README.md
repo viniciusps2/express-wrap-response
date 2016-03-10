@@ -102,5 +102,3 @@ Warning: I do not yet published this package in NPM.
 
 	}))
 
-
-# Author: Vinicius Sanches
