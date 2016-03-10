@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["node_modules", ".git", "vendor", "bower_components","dist",".sass-cache"]			
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "Node",
+            "cmd": "mocha ${file} ${file/(\\.js|\\.spec)//g}.spec.js",
+			"working_dir": "${project_path:${folder}}",
+			"path":"$PATH;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\redew_000\\AppData\\Local\\Programs\\Git\\usr\\bin",
+			"selector":"source.js",
+			"shell": true,
+    		"encoding": "utf-8"
+        }
+    ] 
+}

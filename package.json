@@ -1,0 +1,32 @@
+{
+  "name": "express-wrap-response",
+  "version": "0.0.1",
+  "description": "Wrap ES2016 generators, allow return of promise and standardize return and error responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusps2/express-wrap-response.git"
+  },
+  "keywords": [
+    "express",
+    "wrap",
+    "response",
+    "yield",
+    "generators",
+    "promise"
+  ],
+  "author": "Vinicius Sanches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusps2/express-wrap-response/issues"
+  },
+  "homepage": "https://github.com/viniciusps2/express-wrap-response#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "ejs": "^2.4.1",
+    "lodash": "^4.6.1"
+  }
+}
