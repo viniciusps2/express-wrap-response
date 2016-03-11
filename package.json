@@ -26,7 +26,6 @@
   "homepage": "https://github.com/viniciusps2/express-wrap-response#readme",
   "dependencies": {
     "bluebird": "^3.3.4",
-    "ejs": "^2.4.1",
     "lodash": "^4.6.1"
   }
 }
