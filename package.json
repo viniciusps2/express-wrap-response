@@ -1,6 +1,6 @@
 {
   "name": "express-wrap-response",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrap ES2016 generators, allow return of promise and standardize return and error responses",
   "main": "index.js",
   "scripts": {
