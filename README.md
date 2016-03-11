@@ -1,5 +1,3 @@
-Warning: I do not yet published this package in NPM.
-
 # How to use
 
 	var wrap = require('express-wrap-response');
@@ -30,7 +28,7 @@ Warning: I do not yet published this package in NPM.
 	}))
 
 
-	//vanilla render
+	//original methods also works
 	app.get('/', wrap(function *(req,res) {
 
 		res.render('home',{message: 'Test message!'})
@@ -96,9 +94,9 @@ Warning: I do not yet published this package in NPM.
 	}))
 
 
-	app.get('/errorVanilla', wrap(function *(req,res) {
+	app.get('/errorObject', wrap(function *(req,res) {
 
-		throw new Error('New Error Vanilla!')
+		throw new Error('New Error!')
 
 	}))
 

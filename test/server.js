@@ -99,9 +99,9 @@ app.get('/error', wrap(function *(req,res) {
 }))
 
 
-app.get('/errorVanilla', wrap(function *(req,res) {
+app.get('/errorObject', wrap(function *(req,res) {
 
-	throw new Error('New Error Vanilla!')
+	throw new Error('New Error!')
 
 }))
 
